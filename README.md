@@ -1,5 +1,5 @@
 # wavenumber.py
-CLI tool for quick evaluation for wavenumber, wavelength, and depth to wavelength ratio.  
+CLI tool for quick evaluation of wavenumber, wavelength, and depth to wavelength ratio.  
 A recursive Newton-Raphson function and shallow-water approximation are used to calculate and output the above.
 
 ### arguments
