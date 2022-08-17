@@ -8,8 +8,11 @@ A recursive Newton-Raphson function and shallow-water approximation are used to 
 - `-w` angular frequency
 - `-e` error
 ### usage
-At minimum, the tool needs depth (`-h`) and either period (`-T`) or angular frequency (`-w`) to run.  
-The error (`-e`) is an optional argument, used for establishing the desired margin between guesses from the Newton-Raphson method. By default the error is e-5.
+At minimum, the tool needs depth (`-h`) and either period (`-T`) or angular frequency (`-w`) to run.
+- The tool will not accept both a period and an angular frequency for clarity reasons.
+
+The error (`-e`) is an optional argument, used for establishing the desired margin between guesses from the Newton-Raphson method. 
+- By default the error is e-5.
 
 ##### example 1
 `python3 wavenumber.py -h 5 -T 10`
