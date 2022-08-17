@@ -21,4 +21,5 @@ The error (`-e`) is an optional argument, used for establishing the desired marg
 `python3 wavenumber.py -w 0.63 -e 0.01 -h 8 `
 
 #### example input --> output
-![image](https://user-images.githubusercontent.com/86270509/185037217-2fd0ded3-fd7a-441d-ab7d-7b1eb98f1f05.png)
+![image](https://user-images.githubusercontent.com/86270509/185179803-08cee2b4-d678-4743-a996-fe0abbcf1d61.png)
+
