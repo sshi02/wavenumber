@@ -76,9 +76,13 @@ def main(argv):
     print('initial guess (shallow water approximation): {:f}'.format(k_i))
     k = wn(k_i, h, w, e)
     print('final guess (recursive Newton-Raphson method): {:f}'.format(k))
-    L = 1 / k
+    L = 2 * pi / k
     print('wavelength: {:f}'.format(L))
-    print('depth to wavelength ratio: {:f}'.format(h / L))
+    print('h / L: {:f}'.format(h / L))
+    if h / L > 0.5:
+        print('warning: wave parameters do not satisfy h / L < 0.5')
+    else:
+        print('wave parameters satisfy h / L < 0.5')
     print('---')
 
 if __name__ == '__main__':
